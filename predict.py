@@ -3,7 +3,7 @@ import joblib
 
 
 def read_samples(path):
-    samples = pd.read_csv(path + 'samples.csv', index_col= 0)
+    samples = pd.read_csv(path, index_col= 0)
     return samples
 
 def load_models(path):
@@ -17,7 +17,8 @@ def load_models(path):
 
 
 if __name__ == '__main__':
-    samples = read_samples('data_training/')
+    path = 'data_training/samples.csv'
+    samples = read_samples(path)
 
     African_model, SouthAsian_model, EastAsian_model, European_model, American_model = load_models('models/')
 

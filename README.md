@@ -26,6 +26,6 @@ In order to execute the training.py file, first we need to unzip the data.zip fi
 
 After that you'll just need to run the following command
 
----
+```
 python3 training.py
----
+```

@@ -50,7 +50,9 @@ python3 predict.py
 You can edit the file to predict the ancestry of other patients by changin the path variable in the main function of the code. The path should lead to a csv file in which the first column must be the patient id and then the rest of the data as shown in the samples.csv file in the data_training directory. After running it you should get the prediction of each kind of ancestry. I made a test with a random sample of the test set used for validation in the Challenge.ipynb notebook. The results should look like this:
 
 <!-- ![image](results/samples_result.jpg) -->
-<img src="results/samples_result.jpg" width="300">
+<p align="center">
+    <img src="results/samples_result.jpg" width="300">
+<p>
 
 
 

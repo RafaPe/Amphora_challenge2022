@@ -37,7 +37,7 @@ The output of the training.py file should create the pkl files in the models dir
     │   ├── African_model.pkl          
     │   ├── American_model.pkl   
     │   ├── EastAsian_model.pkl
-    │   ├── European.pkl
+    │   ├── European_model.pkl
     │   └── SouthAsian_model.pkl               
     └── predict.py
     
